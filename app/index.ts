@@ -3,7 +3,7 @@ import { app, BrowserWindow, Menu, Tray, autoUpdater, dialog } from "electron";
 const version = require("../package.json").version;
 
 // set application title
-let appTitle = `Desktop Grimoire v${version}`;
+let appTitle = `Spellbook v${version}`;
 app.setName(appTitle);
 
 
