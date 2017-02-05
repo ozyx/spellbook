@@ -1,0 +1,12 @@
+{
+  "name": "spellbook",
+  "version": "0.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ozyx/spellbook.git",
+  "author": "Jesse Mazzella",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "winston": "^2.3.1"
+  }
+}
