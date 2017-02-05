@@ -7,7 +7,6 @@
   "license": "MIT",
   "devDependencies": {
     "electron-builder": "^12.3.1",
-    "electron-prebuilt": "^1.4.13",
     "gulp": "^3.9.1",
     "gulp-tslint": "^7.1.0",
     "gulp-typescript": "^3.1.4",
@@ -16,6 +15,7 @@
   "dependencies": {
     "@types/electron": "^1.4.31",
     "@types/node": "^7.0.5",
+    "electron": "^1.4.15",
     "typescript": "^2.1.5"
   },
   "scripts": {

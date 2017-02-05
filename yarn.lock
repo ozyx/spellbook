@@ -28,11 +28,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/node@*":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.4.tgz#9aabc135979ded383325749f508894c662948c8b"
-
-"@types/node@^7.0.5":
+"@types/node@*", "@types/node@^7.0.5":
   version "7.0.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
 
@@ -507,8 +503,8 @@ electron-download-tf@3.2.0:
     sumchecker "^2.0.1"
 
 electron-download@^3.0.1:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-3.2.0.tgz#d7509b686b77855f2e6fe0014acc9cce6379c4b1"
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/electron-download/-/electron-download-3.3.0.tgz#2cfd54d6966c019c4d49ad65fbe65cc9cdef68c8"
   dependencies:
     debug "^2.2.0"
     fs-extra "^0.30.0"
@@ -530,9 +526,9 @@ electron-macos-sign@~1.5.0:
     isbinaryfile "^3.0.2"
     plist "^2.0.1"
 
-electron-prebuilt@^1.4.13:
-  version "1.4.13"
-  resolved "https://registry.yarnpkg.com/electron-prebuilt/-/electron-prebuilt-1.4.13.tgz#0a0e4d7bf895a242061ccfab29394dcda1da33d2"
+electron@^1.4.15:
+  version "1.4.15"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.15.tgz#eaccafe3f55ade02a746b706ac14b43db6c7ccf8"
   dependencies:
     electron-download "^3.0.1"
     extract-zip "^1.0.3"
