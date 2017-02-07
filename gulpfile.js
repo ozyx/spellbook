@@ -12,7 +12,7 @@ gulp.task('tslint', () => {
 gulp.task("build", ['tslint'], function () {
     return tsProject.src()
         .pipe(tsProject())
-        .js.pipe(gulp.dest("dist"));
+        .js.pipe(gulp.dest("app"));
 });
 
 gulp.task("default", ['build']);

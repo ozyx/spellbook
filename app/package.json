@@ -5,8 +5,7 @@
   "repository": "https://github.com/ozyx/spellbook.git",
   "author": "Jesse Mazzella",
   "license": "MIT",
+  "description": "it's an app!",
   "devDependencies": {},
-  "dependencies": {
-    "winston": "^2.3.1"
-  }
+  "dependencies": {}
 }

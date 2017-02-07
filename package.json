@@ -6,21 +6,40 @@
   "author": "ozyx <jessemazzella@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/electron": "^1.4.31",
+    "@types/node": "^7.0.5",
+    "electron": "^1.4.15",
     "electron-builder": "^12.3.1",
     "gulp": "^3.9.1",
     "gulp-tslint": "^7.1.0",
     "gulp-typescript": "^3.1.4",
-    "tslint": "^4.4.2"
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5",
+    "winston": "^2.3.1"
   },
-  "dependencies": {
-    "@types/electron": "^1.4.31",
-    "@types/node": "^7.0.5",
-    "electron": "^1.4.15",
-    "typescript": "^2.1.5"
+  "build": {
+    "files": "**/*.js",
+    "productName": "spellbook",
+    "appId": "your.id",
+    "directories": {
+      "buildResources": "dist",
+      "output": "dist"
+    },
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "iconUrl": "(windows-only) https link to icon"
+    },
+    "linux": {
+      "category": "dnd.reference",
+      "target": "tar.gz"
+    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "install-app-deps",
+    "prestart": "gulp",
     "start": "electron ./dist/index.js",
     "dev": "NODE_ENV='development' npm run start",
     "dist": "./node_modules/.bin/build"
