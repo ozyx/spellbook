@@ -6,8 +6,6 @@ const version = require("../package.json").version;
 let appTitle = `Spellbook v${version}`;
 app.setName(appTitle);
 
-
-
 app.on("ready", () => {
     let mainWindow = new BrowserWindow({
         width: 1000,
